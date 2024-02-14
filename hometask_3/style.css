@@ -1,0 +1,45 @@
+h1{
+    font-style: normal;
+}
+.hrf1{
+    font-style: normal;
+    color: rgb(255, 0, 0);
+}
+.hrf{
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+.but_start{
+
+}
+.Gr{
+    background: linear-gradient(to left, rgb(255, 0, 0), 97%, rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.but_start{
+    color: white;
+    padding: 15px 40px;
+    outline: none;
+    border: 2px solid rgb(220, 137, 107);
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: red;
+}
+.but_watch{
+    color: black;
+    padding: 15px 40px;
+    outline: none;
+    border: 0px solid rgb(220, 137, 107);
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: white;
+}
+.brand{
+    margin-right: 30px;
+}
