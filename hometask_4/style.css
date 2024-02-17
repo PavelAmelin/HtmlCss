@@ -1,0 +1,75 @@
+.menu{
+    font-family: Arial;
+    margin-left: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.main_menu{
+    margin-left: 250px;
+}
+.hrf1{
+    font-style: normal;
+    margin: 15px;
+    color: rgb(255, 0, 0)
+}
+.hrf{
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+.Gr{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(to left, rgb(255, 0, 0), 45%, rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home_meta{
+    margin-top: 3%;
+    margin-left: 18%;
+    display: flex;
+    text-align: center;
+    text-justify: center;
+}
+.home_meta_text{
+    text-align: left;
+    width: 35%;
+    
+}
+h1{
+    font-family: Arial;
+    font-size: 45px;
+}
+p{
+    font-family: Arial;
+    font-size: 18px;
+}
+.buts{
+    display: flex;
+}
+.but_start{
+    color: white;
+    padding: 15px 40px;
+    outline: none;
+    border: 2px solid rgb(220, 137, 107);
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: red;
+}
+.but_watch{
+    color: black;
+    padding: 15px 40px;
+    outline: none;
+    border: 0px solid rgb(220, 137, 107);
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: white;
+}
+.brand{
+    margin-left: 16%;
+    margin-top: 6%;
+}
