@@ -1,0 +1,152 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1600px;
+}
+.form{
+    height: 42px;
+    font-size: 22px;
+    color: rgb(255, 165, 47);
+    width: 99.5%;
+    background: url(img/Group\ 2.png) 15% no-repeat, url(img/Forma\ 1.png) 20% no-repeat, url(img/Forma\ 1\ \(1\).png) 75% no-repeat, url(img/Forma\ 1\ \(2\).png) 80% no-repeat, url(img/Forma\ 1\ \(3\).png) 85% no-repeat;
+    background-color: rgba(50, 50, 50, 0.914);
+}
+.upper_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(241, 228, 230, 1);
+}
+.container {
+    position: relative;
+    }
+.im1{
+    position: relative;
+    top: 0;
+    left: 0;
+    filter: brightness(50%);
+}
+.im2{
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+.sec_block{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    align-self: center;
+}
+.container1 {
+    display: grid;
+    justify-items: center;
+    position: relative;
+    width: 80%;
+    align-self: center;
+    }
+.im3{
+    position: relative;
+    top: 0;
+    left: 0;
+    filter: brightness(50%);
+}
+.im4{
+    position: absolute;
+    top: 70px;
+    left: 480px;
+}
+.catalog{
+    font-family:sans-serif;
+    text-align: center;
+}
+h5{
+    color: rgba(159, 159, 159, 1);
+    font-weight: 500;
+    font-size: 16px;
+}
+h3{
+    font-family:sans-serif;
+}
+p{
+    font-family:sans-serif;
+    color: rgba(93, 93, 93, 1);
+    font-size: 16px;
+}
+.price{
+    font-size: 20px;
+    color: rgba(241, 109, 127, 1);
+}
+.third_block{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    width: 80%;
+    align-self: center;
+    gap: 20px;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(248, 248, 248, 1);
+}
+.bt{
+    margin-top: -670px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.in_bt{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: white;
+    color: rgba(255, 106, 106, 1);
+    font-weight: 600;
+    padding: 20px;
+    border: 1px solid;
+}
+
+
+@media (max-width: 900px) {
+    body{
+        width: 98%;
+    }
+    .img1, .decr1{
+        width: 50%;
+    }
+    .form{
+        background: url(img/Group\ 2.png) 15% no-repeat, url(img/Forma\ 1.png) 25% no-repeat, url(img/Forma\ 1\ \(1\).png) 75% no-repeat, url(img/Forma\ 1\ \(2\).png) 82% no-repeat, url(img/Forma\ 1\ \(3\).png) 91% no-repeat;
+        background-color: rgba(50, 50, 50, 0.914);
+    }
+    .sec_block{
+        gap: 154px;
+        align-self: start;
+    }
+    .im1{
+        width: 260%;
+    }
+    .im2{
+        width: 95%;
+        top: 75px;
+        left: 75px;
+    }
+    .im3{
+        width: 125%;
+    }
+    .im4{
+        width: 30%;
+        top: 30px;
+        left: 180px;
+    }
+    .third_block{
+        display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr;
+        width: 100%;
+        align-self: center;
+        gap: 20px;
+    }
+    .bt{
+        margin: auto;
+    }
+}
